@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"   xmlns:app="http://schemas.android.com/apk/res-auto"   xmlns:tools="http://schemas.android.com/tools"   android:layout_width="match_parent"   android:layout_height="match_parent"   android:gravity="center_horizontal"   android:background="#fff"   androi5d:orientation="vertical"   tools:context=".MainActivity">
+
+
+       <Button       android:id="@+id/btn_reset"       android:layout_width="wrap_content"       android:layout_height="wrap_content"       android:text="reset"       android:background="@drawable/btn"       android:layout_gravity="end"/>
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:orientation="vertical"
+android:gravity="center"
+android:layout_height="wrap_content">
+
+
+<TextView
+
+   android:id="@+id/tv_tasbih"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="Tasbih"
+   android:layout_marginTop="50dp"
+   android:textStyle="bold"
+ .  android:textSize="50sp"/>
+
+<TextView
+   android:id="@+id/tv_digit"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="0"
+   android:layout_marginBottom="50dp"
+   android:textSize="50sp"/>
+
+<Button
+   android:id="@+id/btn_prees"
+   android:layout_width="wrap_content"
+   android:layout_height="100dp"
+   android:layout_marginBottom="50dp"
+   android:text="PRESS
+HERE"
+   android:background="@drawable/btn"
+   android:textSize="30sp"/>
+
+
+<Button
+    android:id="@+id/btn_tahmid"
+    android:layout_width="wrap_content"  
+ 
+ 
+</LinearLayout>
